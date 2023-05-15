@@ -1,1 +1,2 @@
 google.com, pub-3716644928119274, DIRECT, f08c47fec0942fa0
+smartadserver.com, 4194, DIRECT

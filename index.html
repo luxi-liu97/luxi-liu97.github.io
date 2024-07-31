@@ -1,150 +1,432 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
 <head>
-	<title>Luxi Liu</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<meta name="google-site-verification" content="KSsNpfgi_RjtmR58LsLP72JmYRued1SVtFNzUS62wyo" />
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luxi - Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
 
-<body class="is-preload">
 
-	<!-- Header -->
-	<header id="header">
-		<div class="inner">
-			<a href="#" class="image avatar"><img src="images/luxi pic.jpeg" alt="" /></a>
-			<h1><strong>Luxi Liu</strong>
-				Mathematics MSci<br />
-				Imperial College London</a></h1>
-		</div>
-	</header>
+<body id="top">
 
-	<!-- Main -->
-	<div id="main">
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
-		<!-- One -->
-		<section id="one">
-			<header class="major">
-				<h2>Full-stack software engineer. Data specialist.</h2>
-			</header>
-			<p> Programmer and data scientist. I code primarily in Go and Python but also in R, SQL and Java.
-				<br>
-			<p> Currently employed as a back-end developer in the Media Team at Amazon Ring. <br>
-			<p> Independent contractor for <a href="https://greencrane.co.uk/">Green Crane Consulting</a>.<br>
-			<p> I also make puzzle games in Unity. </p>
-			<ul class="actions">
-				<li><a href="assets/CV_Nov23.pdf" class="button">Résumé</a></li>
-			</ul>
-		</section>
 
-		<!-- Two -->
-		<section id="two">
-			<h2>Hire Me</h2>
-			<p></p>
-			<div class="row">
-				<div class="col-8 col-12-small">
-					<form method="post" action="mailto:luxiliu5415@gmail.com" enctype="text/plain" name="EmailForm">
-						<div class="row gtr-uniform gtr-50">
-							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
-									placeholder="Name" /></div>
-							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email"
-									placeholder="Email" /></div>
-							<div class="col-12"><textarea name="message" id="message" placeholder="Message"
-									rows="4"></textarea></div>
-						</div>
-						<p></p>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" /></li>
-						</ul>
-					</form>
-				</div>
-				<div class="col-4 col-12-small">
-					<ul class="labeled-icons">
-						<li>
-							<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-							2 Barnwell Road<br />
-							London<br />
-							United Kingdom<br />
-							SW2 1PW
-						</li>
-						<li>
-							<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-							+44 7473 861 500
-						</li>
-						<li>
-							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-							<a href="#">luxiliu5415@gmail.com</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap ss-home">
 
-		<!-- Three -->
-		<section id="three">
-			<h2>Recent Projects</h2>
-			<div class="row">
-				<article class="col-6 col-12-xsmall work-item">
-					<img src="images/thumbs/08a.jpg" alt="" class="image fit thumb" />
-					<h3>Splish</h3>
-					<p>An original mobile puzzle built in Unity.<br>
-						<a href="https://play.google.com/store/apps/details?id=com.IotaCo.Splish" target="_blank">Google
-							Play link</a>
-					</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<img src="images/thumbs/05a.jpg" alt="" class="image fit thumb" />
-					<h3><a href="https://github.com/luxi-liu97/scheme">Scheme Interpreter</a></h3>
-					<p>Implementation of a Scheme interpreter with full Read-Eval-Print-Load functionality</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<img src="images/thumbs/04a.jpg" alt="" class="image fit thumb" />
-					<h3><a href="https://github.com/luxi-liu97/astronauts_EDA">Astronauts - Exploratory Data
-							Analysis</a></h3>
-					<p>An investigation into astronauts/missions data from the perspective of a new space agency</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<img src="images/thumbs/06a.jpg" alt="" class="image fit thumb" />
-					<h3>London 20mph Zones - Master's Dissertation</h3>
-					<p>Investigating the causal effect of 20mph zones on traffic accidents in London using propensity
-						score methods</p>
-				</article>
-			</div>
-			<ul class="actions">
-				<li><a href="https://github.com/luxi-liu97?tab=repositories" class="button">Github Portfolio</a></li>
-			</ul>
-		</section>
-	</div>
 
-	<!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				<li><a href="https://github.com/luxi-liu97" class="icon brands fa-github"><span
-							class="label">Github</span></a></li>
-				<li><a href="https://www.linkedin.com/in/luxi-liu-488408193/" class="icon brands fa-linkedin"><span
-							class="label">LinkedIn</span></a></li>
-				<li><a href="mailto:luxiliu5415@gmail.com" class="icon solid fa-envelope"><span
-							class="label">Email</span></a></li>
-			</ul>
-		</div>
-	</footer>
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+            <div class="row s-header__inner width-sixteen-col">
+
+                <nav class="s-header__nav">
+    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a href="index.html">Portfolio</a></li>
+                        <li><a href="about.html">Bio</a></li>
+                    </ul> <!-- s-header__menu-links -->
+
+                    <div class="s-header__contact">
+                        <a href="assets/CV_Nov23.pdf" class="btn btn--primary s-header__contact-btn" target="_blank">Résumé</a>                     
+                    </div> <!-- s-header__contact -->
+    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- # site main content
+        ================================================== -->
+        <section id="content" class="s-content">
+
+            <!-- intro
+            ----------------------------------------------- -->
+            <section id="intro" class="s-intro">
+
+                <div class="row s-intro__content width-sixteen-col">
+
+                    <div class="column lg-12 s-intro__content-inner grid-block">
+                        
+                        <div class="s-intro__content-text">
+                            <div class="s-intro__content-pretitle text-pretitle">Luxi Liu</div>
+                            <h1 class="s-intro__content-title">
+                            Coding and writing<br>
+                            to create and express<br>
+                            </h1>
+                        </div> <!-- s-intro__content-text -->
+
+                        <div class="s-intro__scroll-down">
+                            <a href="#about" class="smoothscroll">
+                                <div class="scroll-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                                </div>
+                                <span>Portfolio</span>
+                            </a>
+                        </div> <!-- s-intro__scroll-down -->
+                        
+                    </div> <!-- s-intro__content-inner -->
+
+                </div> <!-- s-intro__content -->
+
+            </section> <!-- end s-intro -->
+
+            <!-- about
+            ----------------------------------------------- -->
+            <section id="about" class="s-about_synth target-section">
+
+                <div class="row s-about__content_synth width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">Synthesia</div>                           
+                            <h2 class="text-display-title">
+                            educational VR musical puzzle game
+                            </h2>                           
+                        </div> <!-- end section-header -->
+
+                        <div class="s-about__content_synth-main grid-section-split__primary">
+                            <div class="video-container">
+                                <iframe src="https://drive.google.com/file/d/11f2Qe4CXBr5Fe8QUwlk-1Zqb_pS6X5o9/preview" width="640" height="480" allow="autoplay" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                            <p class="attention-getter">
+                                In youth, Luxi studied violin for 8 years, but found progress difficult as she was unable to hear subtle differences between tones. Recently, she felt inspired by the human sensory phenomenon synesthesia to create a game which aims to train the ears of visual learners like herself.<br>
+                                Whenever a player hears a note, a corresponding colour ripples in front of their eyes, simulating synesthesia. This creates and reinforces an audio-visual link, making it easier for music aficionados to differentiate between notes.
+                            </p>
+
+                        </div> <!-- end s-about__content-main -->
+
+                        <div class="s-about__content_synth-btn grid-section-split__bottom">
+                            <a href="about.html" class="btn btn--primary u-fullwidth">Meta Quest Store</a>
+                        </div> <!-- end s-about__content-btn -->
+                    
+                    </div> <!-- content-inner -->
+                </div>
+                
+            </section> <!-- end s-about -->
+
+
+            <!-- about
+            ----------------------------------------------- -->
+            <section id="about" class="s-about_splish target-section">
+
+                <div class="row s-about__content_splish width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">Splish</div>                           
+                            <h2 class="text-display-title">
+                            challenging colour-blending mobile game
+                            </h2>                           
+                        </div> <!-- end section-header -->
+
+                        <div class="s-about__content_splish-main grid-section-split__primary">
+                            <div class="row s-clients__content-block width-sixteen-col">
+                                <div class="column xl-12 testimonials">
+                                
+                                    <div class="swiper-container home-slider">
+            
+                                        <div class="swiper-wrapper">
+                                            <div class="testimonials__slide swiper-slide">
+                                                <div class="testimonials__author">
+                                                    <img src="images/title.png" alt="Author image" class="s-intro__content-media-inner">
+                                                </div>
+                                            </div>
+                                            <div class="testimonials__slide swiper-slide">
+                                                <div class="testimonials__author">
+                                                    <img src="images/levels.png" alt="Author image" class="s-intro__content-media-inner">
+                                                </div>
+                                            </div>
+                                            <div class="testimonials__slide swiper-slide">
+                                                <div class="testimonials__author">
+                                                    <img src="images/obstacles.png" alt="Author image" class="s-intro__content-media-inner">
+                                                </div>
+                                            </div>
+                                            <div class="testimonials__slide swiper-slide">
+                                                <div class="testimonials__author">
+                                                    <img src="images/mixing.png" alt="Author image" class="s-intro__content-media-inner">
+                                                </div>
+                                            </div> 
+                                        </div> <!-- end swiper-wrapper --> 
+            
+                                        <div class="swiper-pagination"></div>
+            
+                                    </div> <!--end testimonials__slider -->                    
+                                
+                                </div> <!-- end column -->
+                            </div> <!-- end row -->
+                            <p class="attention-getter">
+                                Splish was made in Unity.
+                            </p>
+                        </div> <!-- end s-about__content_splish-main -->
+
+                        <div class="s-about__content_splish-btn grid-section-split__bottom">
+                            <a href="https://apps.apple.com/us/app/splish/id6449299864" class="btn btn--primary u-fullwidth">Apple iOS Store</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.IotaCo.Splish&hl=en" class="btn btn--primary u-fullwidth">Google Play Store</a>
+                        </div> <!-- end s-about__content_splish-btn -->
+                    
+                    </div> <!-- content-inner -->
+                </div>
+                
+            </section> <!-- end s-about -->
+
+            <!-- about
+            ----------------------------------------------- -->
+            <section id="about" class="s-about_allotments target-section">
+
+                <div class="row s-about__content_allotments width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">Allotments</div>                           
+                            <h2 class="text-display-title">
+                            social (media) experiment
+                            </h2>                           
+                        </div> <!-- end section-header -->
+
+                        <div class="s-about__content_allotments-main grid-section-split__primary">
+                            <p class="attention-getter">
+                            Sign up for a demo today, join the allotment!
+                            </p>
+                        </div> <!-- end s-about__content_allotments-main -->
+
+                        <div class="s-about__content_allotments-btn grid-section-split__bottom">
+                            <a href="about.html" class="btn btn--stroke u-fullwidth">Website</a>
+                        </div> <!-- end s-about__content_allotments-btn -->
+                    
+                    </div> <!-- content-inner -->
+                </div>
+                
+            </section> <!-- end s-about -->
+
+
+            <!-- writing
+            ----------------------------------------------- -->
+            <section id="writing" class="s-writing">
+
+                <div class="row s-writing__content width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">writing</div>                           
+                            <h2 class="text-display-title">
+                            creative communication
+                            </h2>
+                        </div> <!-- end section-header -->
+
+                        <div class="s-writing__content-main grid-section-split__primary">
+
+                            <div class="grid-list-items list-items show-ctr">
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title"><a href="https://www.wattpad.com/user/hisracingheart" target="_blank">Fiction on Wattpad</a></h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            As a teenager, Luxi found fame on Wattpad, garnered 134K followers. Her romance novels have been read a combined 60M times across the globe, her stories challenging how young women (including herself) think about romance.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Non-Fiction</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            Luxi has written several essays about her past experiences and what interests her. She's currently working on her memoirs, which is still in early stages.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-writing__item -->
+                            </div> <!-- grid-list-items -->
+                        </div> <!-- end s-writing__content-main -->
+                    </div> <!-- end grid-block-->
+                </div> <!-- end s-writing__content -->
+
+            </section> <!-- end s-writing -->
+
+
+            <!-- software_projects
+            ----------------------------------------------- -->
+            <section id="software_projects" class="s-software_projects">
+
+                <div class="row s-software_projects__content width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">projects - software</div>                           
+                            <h2 class="text-display-title">
+                            learning through exploration
+                            </h2>     
+                        </div> <!-- end section-header -->
+
+                        <div class="s-software_projects__content-main grid-section-split__primary">
+
+                            <div class="grid-list-items list-items show-ctr">
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title"><a href="https://github.com/luxi-liu97/scheme" target="_blank">Scheme Interpreter</a></h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            Implementation of a Scheme interpreter with full Read-Eval-Print-Load functionality
+                                        </p>
+                                    </div>
+                                </div> <!-- list-software_projects__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title"><a href="https://github.com/luxi-liu97/ants_game" target="_blank">Ants Game</a></h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            A "Plants vs Zombies"-style mini-game
+                                        </p>
+                                    </div>
+                                </div> <!-- list-software_projects__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title"><a href="https://github.com/luxi-liu97/cats_game" target="_blank">Cats Game</a></h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            A multiplayer typing game with a built-in autocorrect function
+                                        </p>
+                                    </div>
+                                </div> <!-- list-software_projects__item -->
+
+                            </div> <!-- grid-list-items -->
+                        </div> <!-- end s-software_projects__content-main -->
+                    </div> <!-- end grid-block-->
+                </div> <!-- end s-software_projects__content -->
+
+            </section> <!-- end s-software_projects -->
+
+            <!-- data_projects
+            ----------------------------------------------- -->
+            <section id="data_projects" class="s-data_projects">
+
+                <div class="row s-data_projects__content width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">projects - data</div>                           
+                            <h2 class="text-display-title">
+                            statistical storytelling
+                            </h2>
+                        </div> <!-- end section-header -->
+
+                        <div class="s-data_projects__content-main grid-section-split__primary">
+
+                            <div class="grid-list-items list-items show-ctr">
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title"><a href="assets/Masters_Thesis.pdf" target="_blank">London 20mph Zones - Master's Dissertation</a></h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            Investigating the causal effect of 20mph zones on traffic accidents in London using propensity
+                                            score methods. Dissertation for her Mathematics MSci at Imperial College London, received First Class Honours.
+                                        </p>
+                                    </div>
+                                </div> <!-- list-item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title"><a href="https://github.com/luxi-liu97/astronauts_EDA" target="_blank">Astronauts - Exploratory Data Analysis</a></h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                            An investigation into astronauts/missions data from the perspective of a new space agency
+                                        </p>
+                                    </div>
+                                </div> <!-- list-data_projects__item -->
+                            </div> <!-- grid-list-items -->
+                        </div> <!-- end s-data_projects__content-main -->
+                    </div> <!-- end grid-block-->
+                </div> <!-- end s-data_projects__content -->
+
+            </section> <!-- end s-data_projects -->     
+
+        </section> <!-- s-content-->
+
+        <!-- # footer 
+        ================================================== -->
+        <footer class="s-footer">  
+            <div class="row s-footer__bottom">
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li class="center-icon">
+                            <a href="mailto:luxiliu9792@gmail.com" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg>
+                                <span class="u-screen-reader-text">Email</span>
+                            </a>
+                        </li>
+                        <li class="center-icon">
+                            <a href="https://www.linkedin.com/in/luxi-liu-488408193/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                                <span class="u-screen-reader-text">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="center-icon">
+                            <a href="https://github.com/luxi-liu97" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                                <span class="u-screen-reader-text">GitHub</span>
+                            </a>
+                        </li>
+                    </ul> <!-- end s-footer__social -->
+                </div>
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Luxi Liu 2024</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </p>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                    </a>
+                </div> <!-- end ss-go-top -->
+            </div>
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
-
 </html>

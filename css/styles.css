@@ -2776,6 +2776,7 @@ td:last-child {
 	color      : var(--color-1);
 	padding-top     : var(--vspace-3);
 	padding-bottom     : var(--vspace-1);
+	line-height: 0.8;
 }
 
 .text-display-title {

@@ -3963,28 +3963,22 @@ td:last-child {
  *
  *
  * ------------------------------------------------------------------- */
-.s-software_projects {
+ .s-writing {
 	padding-top     : var(--vspace-1);
 	padding-bottom  : var(--vspace-1);
 	background              : var(--color-3-dark);
 }
 
-.s-data_projects {
+ .s-software_projects {
 	padding-top     : var(--vspace-1);
 	padding-bottom  : var(--vspace-1);
 	background              : var(--color-2-lightest);
-}
-
-.s-writing {
-	padding-top     : var(--vspace-1);
-	padding-bottom  : var(--vspace-1);
-	background              : var(--color-3-dark);
 }
 
 .s-bio {
 	padding-top     : var(--vspace-1);
 	padding-bottom  : var(--vspace-1);
-	background              : var(--color-2-lightest);
+	background              : var(--color-3-dark);
 }
 
 .s-bio__content-media {

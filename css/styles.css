@@ -2834,7 +2834,7 @@ td:last-child {
 	margin-bottom   : var(--vspace-0_5);
 	display         : flex;
 	justify-content : center;
-	align-items     : center;
+	align-items     : center; 
 	height          : var(--vspace-2);
 	width           : var(--vspace-2);
 	border-radius   : 50%;
@@ -4182,7 +4182,7 @@ td:last-child {
 	padding-bottom  : var(--vspace-2);
 	background-color: var(--color-2-dark);
 	color           : var(--color-3);
-	background      : url('../images/allotments.png') no-repeat top center;
+	background      : url('../images/allotments.png') no-repeat bottom center;
 	background-size: cover;
 	position: relative;
 }
@@ -4211,7 +4211,7 @@ td:last-child {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.3); /* Adjust the color and opacity */
+	background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity */
 	z-index: 1;
 }
 .s-about__content_allotments-main .attention-getter,

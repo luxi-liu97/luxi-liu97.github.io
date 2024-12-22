@@ -3383,7 +3383,7 @@ td:last-child {
  * responsive:
  * site-header
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 300px) {
 	.s-header {
 		--logo-width: 10rem;
 		top         : var(--vspace-0_25);
@@ -3438,8 +3438,8 @@ td:last-child {
 	.s-header__contact {
 		margin    : 0;
 		transform : translateY(-2rem);
-		opacity   : 0;
-		visibility: hidden;
+		opacity   : 1;
+		visibility: visible;
 	}
 
 	.s-header__menu-links {
